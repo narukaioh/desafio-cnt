@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
+    "exec": "cross-env CI=true react-scripts test --env=jsdom --json",
     "eject": "react-scripts eject",
     "submit": "codenation-jest-score ./score-map.json"
   },
